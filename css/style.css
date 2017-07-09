@@ -594,3 +594,6 @@ more media queries
 	background-color:#FFF;
 	}
 	
+h2.wow.bounceInDown.animated {
+    color: darkred;
+}
