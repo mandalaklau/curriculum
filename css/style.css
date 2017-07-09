@@ -612,10 +612,15 @@ more media queries
     -webkit-box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
     -moz-box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
     box-shadow: 0px 2px 7px rgba(0,0,0,0.2);
-    margin: 50% auto;
+    margin: 20% auto;
+    width: 90%
 }
 
-
+@media (max-width:768px){
+	.lb-overlay:target{
+	padding: 0px !important;
+}
+}
  /* @media (max-width:768px) {
 .lb-overlay div h3 div p{
     padding: 0px 0px;
@@ -637,9 +642,6 @@ more media queries
     margin: -8%;
     text-align: center;
     border: none;
-    }
-    .lb-overlay div p{
-    	width: 
     }
 }
 .fondo {
