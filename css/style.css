@@ -638,7 +638,7 @@ more media queries
 @media (max-width:768px) {
 .lb-overlay div h3{
 	padding: 0px 0px;
-    width: 40%!important;
+    width: 60%!important;
     font-size: 15px;
     margin: -8%;
     text-align: center;
