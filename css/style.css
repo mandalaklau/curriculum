@@ -162,7 +162,7 @@ Home sections
 
 
 .color-light p {
-	color: #77775f;
+	color: #F66777;
 }
 
 
@@ -205,7 +205,7 @@ Intro
 .intro-text {
 	position:relative;
 	width:100%;
-	margin-top:200px;
+	margin: 12% auto;
 	z-index:1000;
 }
 .nombre {
@@ -236,7 +236,7 @@ Intro
 
 .intro-text p span {
 	color:#fff;
-	font-size: 25px;
+	font-size: 21px;
 	text-align:center;
 	font-weight: 300;
 }
@@ -558,6 +558,7 @@ more media queries
 
 @media (max-width:768px) {
 	#intro{
+		
 		background-size:100%;
 	}
 	.box-team, .box-team img {
@@ -565,7 +566,7 @@ more media queries
 	}
 	.box-team img {
 		float: none;
-		margin:0 auto;
+		margin:5% auto;
 	}	
 	.box-team {
 		margin-bottom: 30px;
@@ -589,8 +590,59 @@ more media queries
 		background-image: none;
 	}
 }
+@media (max-width:480px){
+	#intro a{
+		font-size: 20px;
+	}
+}
+@media (max-width:480px){
+	#intro p{
+		font-size: 23px!important;
+	}
+}
+@media (max-width:480px){
+	#intro-text p span: {
+		font-size: 21px !important;
+	}
+}
+@media (max-width:768px){
+	.lb-overlay img {
+    max-height: 50% !important;
+    position: relative;
+    -webkit-box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+    -moz-box-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+    box-shadow: 0px 2px 7px rgba(0,0,0,0.2);
+    margin: 50% auto;
+}
+
+
+ /* @media (max-width:768px) {
+.lb-overlay div h3 div p{
+    padding: 0px 0px;
+    width: 40%!important;
+    font-size: 15px;
+    margin-top: 0;
+  float: left;
+    text-align: right;
+    border-right: 1px solid #333;
+    text-shadow: none;
+    color: #A4202B;
+	}
+}*/
+@media (max-width:768px) {
+.lb-overlay div h3{
+	padding: 0px 0px;
+    width: 40%!important;
+    font-size: 15px;
+    margin: -8%;
+    text-align: center;
+    border: none;
+    }
+    .lb-overlay div p{
+    	width: 
+    }
+}
 .fondo {
 	background-color:#FFF;
 	}
 	
-
