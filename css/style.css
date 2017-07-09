@@ -595,5 +595,5 @@ more media queries
 	}
 	
 h2.wow.bounceInDown.animated {
-    color: darkred;
+    color: darkred !important;
 }
